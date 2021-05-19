@@ -1,0 +1,14 @@
+{
+  "name": "problem1",
+  "version": "1.0.0",
+  "description": "3 novel ways of summing to n",
+  "main": "sum_to_n.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}

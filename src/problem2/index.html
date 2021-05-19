@@ -1,0 +1,36 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- You may add more stuff here -->
+  <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- You may reorganise the whole HTML, as long as your form achieves the same effect. -->
+  <div class="fancy-box">
+    <h2>Fancy Form</h2>
+    <form onsubmit="return !1">
+      <div class="user-box">
+        <input type="text" name="" required="" minlength="42" maxlength="42">
+        <label id="input-address">ETH Address</label>
+      </div>
+      <div class="user-box">
+        <input type="number" name="" required="">
+        <label for="input-amount">Amount to send</label>
+      </div>
+      <div class="user-box">
+        <input type="number" name="" required="" maxlength="6">
+        <label for="input-otp">OTP Authentication</label>
+      </div>
+      <a href="#">
+        <button class="fancy-button">SEND TOKENS</button> 
+      </a>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

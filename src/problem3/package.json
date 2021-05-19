@@ -1,0 +1,15 @@
+{
+  "name": "problem3",
+  "version": "1.0.0",
+  "description": "Datasource connector with Vanilla JS",
+  "main": "datasource.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "node-fetch": "^2.6.1"
+  }
+}
